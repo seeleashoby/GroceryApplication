@@ -6,9 +6,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import utilities.PageUtility;
+
 public class ManageContactPage {
 
-	
+	PageUtility p = new PageUtility ();	
 public WebDriver driver;
 	
 	
@@ -54,9 +56,11 @@ public WebDriver driver;
 	}
 	public ManageContactPage updatebuttonClick()
 	{
-		JavascriptExecutor js = (JavascriptExecutor)driver;
-		js.executeScript("arguments[0].click();", update);
-		js.executeScript("window.scrollBy(0,350)", "");
+		 p.scrollToElement(driver);
+		 p.javascriptClick(driver, update);
+		//JavascriptExecutor js = (JavascriptExecutor)driver;
+		//js.executeScript("arguments[0].click();", update);
+		//js.executeScript("window.scrollBy(0,350)", "");
 		return this;
 	}
 	public boolean successAlertDisplayedorNot()
