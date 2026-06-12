@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-11T20:04:27 CST" name="Suite" finished-at="2026-06-11T20:04:37 CST" duration-ms="9907">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.verifyloginusinginvalidpassword(java.lang.String,java.lang.String)[pri:4, instance:testScript.LoginTest@303cf2ba]" name="verifyloginusinginvalidpassword" class="testScript.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-06-11T20:04:27 CST" name="Test" finished-at="2026-06-11T20:04:37 CST" duration-ms="9907">
+      <class name="testScript.LoginTest">
+        <test-method is-config="true" signature="InitialiseBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@303cf2ba]" started-at="2026-06-11T20:04:27 CST" name="InitialiseBrowser" finished-at="2026-06-11T20:04:31 CST" duration-ms="4516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialiseBrowser -->
+        <test-method signature="verifyloginusinginvalidpassword(java.lang.String,java.lang.String)[pri:4, instance:testScript.LoginTest@303cf2ba]" started-at="2026-06-11T20:04:31 CST" name="verifyloginusinginvalidpassword" description="User is trying to login with invalid password" data-provider="loginProvider" finished-at="2026-06-11T20:04:32 CST" duration-ms="870" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginusinginvalidpassword -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.LoginTest@303cf2ba]" started-at="2026-06-11T20:04:32 CST" name="closeBrowser" finished-at="2026-06-11T20:04:32 CST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginusinginvalidpassword status=SUCCESS method=LoginTest.verifyloginusinginvalidpassword(java.lang.String,java.lang.String)[pri:4, instance:testScript.LoginTest@303cf2ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="InitialiseBrowser(java.lang.String)[pri:0, instance:testScript.LoginTest@303cf2ba]" started-at="2026-06-11T20:04:32 CST" name="InitialiseBrowser" finished-at="2026-06-11T20:04:36 CST" duration-ms="3699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialiseBrowser -->
+        <test-method signature="verifyloginusinginvalidpassword(java.lang.String,java.lang.String)[pri:4, instance:testScript.LoginTest@303cf2ba]" started-at="2026-06-11T20:04:36 CST" name="verifyloginusinginvalidpassword" description="User is trying to login with invalid password" data-provider="loginProvider" finished-at="2026-06-11T20:04:37 CST" duration-ms="774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginusinginvalidpassword -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testScript.LoginTest@303cf2ba]" started-at="2026-06-11T20:04:37 CST" name="closeBrowser" finished-at="2026-06-11T20:04:37 CST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyloginusinginvalidpassword status=SUCCESS method=LoginTest.verifyloginusinginvalidpassword(java.lang.String,java.lang.String)[pri:4, instance:testScript.LoginTest@303cf2ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScript.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
